@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&family=Lumanosimo&family=Patrick+Hand&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.init {
+  height: calc(100vh - 8em);
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.568);
+  color: white;
+}
+
+.init img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.init_content {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.init_content h1 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 4em;
+  margin-bottom: 0.2em;
+}
+
+.init_content p {
+  text-align: center;
+}
+
+.content {
+  background-color: rgb(255, 255, 255);
+  min-height: 500px;
+  width: 70%;
+  margin: 0 auto;
+  transform: translateY(-2.1em);
+  position: relative;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.377);
+  margin-bottom: 3em;
+  padding: 2em 1.5em;
+}
+
+.content h2 {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 4em;
+  color: rgb(68, 68, 68);
+  margin: 0.5em;
+}
+
+.content p {
+  margin-bottom: 0.8em;
+  width: 90%;
+  padding-left: 2em;
+}
