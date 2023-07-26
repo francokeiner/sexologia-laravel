@@ -1,0 +1,75 @@
+.content {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.568);
+}
+
+.content img {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+
+.content_items {
+  background-color: rgb(255, 255, 255);
+  margin-top: 5.5em;
+  padding: 1em 12em;
+  border-radius: 6px;
+}
+
+.content_title {
+  font-size: 3.5em;
+  font-family: 'Patrick Hand', cursive;
+  color: rgb(68, 68, 68);
+  margin-bottom: 0.2em;
+  text-align: center;
+}
+
+.content_form {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(68, 68, 68);
+  padding: 1.5em;
+  border-radius: 6px;
+  width: calc(100vw - 50em);
+}
+
+.content_form label {
+  margin-bottom: 0.8em;
+}
+
+.content_form input {
+  padding: 0.5em;
+  border: none;
+  outline: 1px solid rgb(68, 68, 68);
+  margin-bottom: 1em;
+  border-radius: 6px;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.content_form input:focus-visible {
+  outline-color: rgb(0, 0, 0);
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.445);
+}
+
+.content_btn_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8em;
+}
+
+.content_btn_container button {
+  cursor: pointer;
+  border: none;
+  background-color: rgb(2, 155, 243);
+  padding: 0.8em 1.3em;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 1em;
+}
