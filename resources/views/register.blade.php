@@ -13,13 +13,24 @@
   <div class="content_items">
     <h1 class="content_title">Registrate</h1>
 
-    <form method="post" action="" class="content_form">
+    <form method="post" action="{{ route('register') }}" class="content_form">
+      @csrf
+
+      @error('name')
+        <h6 class="error"> {{ $message }}</h6>
+      @enderror
       <label for="name">Nombre</label>
-      <input type="text" name="name">
+      <input type="text" name="name" value="{{ old('name') }}">
 
+      @error('email')
+        <h6 class="error"> {{ $message }}</h6>
+      @enderror
       <label for="email">Correo electronico</label>
-      <input type="email" name="email">
-
+      <input type="email" name="email" value="{{ old('email') }}">
+      
+      @error('password')
+        <h6 class="error"> {{ $message }}</h6>
+      @enderror
       <label for="password">Contraseña</label>
       <input type="password" name="password">
 

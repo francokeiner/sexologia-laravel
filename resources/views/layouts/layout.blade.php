@@ -25,7 +25,12 @@
         <div class="header_item">
           <img src="{{ asset('images/telephone-fill.svg') }}" alt="imagen de telefono">
           <a class="header_contact" href="#">CONTÁCTANOS
-          <a class="header_login" href="#">INICIAR SESIÓN</a>
+          @auth
+          <img src="{{ asset('images/person-circle.svg') }}" alt="Image person">
+            <span>{{ auth()->user()->name }}</span>
+            @else
+            <a class="header_login" href="#">INICIAR SESIÓN</a>
+          @endauth
       </div>
     </div>
   </header>

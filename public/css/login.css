@@ -37,6 +37,11 @@
   width: calc(100vw - 50em);
 }
 
+.error {
+  color: rgb(255, 24, 24);
+  font-style: italic;
+}
+
 .content_form label {
   margin-bottom: 0.8em;
 }
