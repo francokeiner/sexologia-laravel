@@ -11,6 +11,7 @@ Route::get('registrarse', [LoginController::class, 'registerForm'])->name('regis
 Route::get('iniciar-sesion', [LoginController::class, 'loginForm'])->name('login-form');
 
 Route::post('registrarse', [LoginController::class, 'register'])->name('register');
+Route::post('registrarse', [LoginController::class, 'login'])->name('login');
 
 Route::group(['middleware' => ['auth']], function() {
   Route::get('logout', [LoginController::class, 'logout'])->name('logout');

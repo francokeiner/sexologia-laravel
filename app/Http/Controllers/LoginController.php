@@ -32,6 +32,21 @@ class LoginController extends Controller
     return redirect()->route('blog');    
   }
 
+  public function login(Request $request)
+  {
+    $credentials = $request->validate([
+      'email' => 'required',
+      'password' => 'required'
+    ]);
+
+    if (Auth::attempt($credentials, true))
+    {
+      $request->session()->regenerate();
+
+      return redirect(route('blog'));
+    }
+  }
+
   public function logout(Request $request)
   {
     Auth::logout();

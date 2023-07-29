@@ -13,7 +13,7 @@
   <div class="content_items content_items-login">
     <h1 class="content_title">Inicia sesión</h1>
 
-    <form method="post" action="{{ route('register') }}" class="content_form">
+    <form method="post" action="{{ route('login') }}" class="content_form">
       @csrf
 
       <label for="email">Correo electronico</label>
