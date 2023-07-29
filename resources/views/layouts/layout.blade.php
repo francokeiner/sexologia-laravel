@@ -6,6 +6,7 @@
   <title>@yield('title')</title>
   <link rel="stylesheet" href="{{ asset('index.css') }}">
   <link rel="stylesheet" href="{{ asset('css/layout.css') }}">
+  <script src="{{ asset('js/user.js') }}" defer></script>
   @yield('css')
 </head>
 <body>
@@ -31,6 +32,9 @@
             <div class="header_user">
               <img src="{{ asset('images/person-circle.svg') }}" alt="Image person">
               <span>{{ auth()->user()->name }}</span>
+              <div class="user_options">
+                <a href="#">Cerrar sesión</a>
+              </div>
             </div>
             @else
             <a class="header_login" href="#">INICIAR SESIÓN</a>
