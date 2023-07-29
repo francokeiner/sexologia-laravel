@@ -13,7 +13,7 @@
     <div class="container">
       <div class="header_items">
         <div class="header_item">
-          <a href="#" class="logo">Logo</a>
+          <a href="/" class="logo">Logo</a>
           <nav>
             <ul class="header_links">
               <li><a href="#">BLOG</a></li>
@@ -23,11 +23,15 @@
           </nav>
         </div>
         <div class="header_item">
-          <img src="{{ asset('images/telephone-fill.svg') }}" alt="imagen de telefono">
-          <a class="header_contact" href="#">CONTÁCTANOS
+          <a class="header_contact" href="#">
+            <img src="{{ asset('images/telephone-fill.svg') }}" alt="imagen de telefono">
+            <span>CONTÁCTANOS</span>
+          </a>
           @auth
-          <img src="{{ asset('images/person-circle.svg') }}" alt="Image person">
-            <span>{{ auth()->user()->name }}</span>
+            <div class="header_user">
+              <img src="{{ asset('images/person-circle.svg') }}" alt="Image person">
+              <span>{{ auth()->user()->name }}</span>
+            </div>
             @else
             <a class="header_login" href="#">INICIAR SESIÓN</a>
           @endauth
