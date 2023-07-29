@@ -33,7 +33,7 @@
               <img src="{{ asset('images/person-circle.svg') }}" alt="Image person">
               <span>{{ auth()->user()->name }}</span>
               <div class="user_options">
-                <a href="#">Cerrar sesión</a>
+                <a href="{{ route('logout') }}">Cerrar sesión</a>
               </div>
             </div>
             @else
