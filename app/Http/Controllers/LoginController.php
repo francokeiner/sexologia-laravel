@@ -11,7 +11,12 @@ class LoginController extends Controller
 {
   public function registerForm()
   {
-    return redirect()->route('register-form');
+    return view('register');
+  }
+
+  public function LoginForm()
+  {
+    return view('login');
   }
 
   public function register(RegisterRequest $request) 

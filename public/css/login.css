@@ -20,6 +20,10 @@
   border-radius: 6px;
 }
 
+.content_items-login {
+  padding: 2.8em 3.4em 4em;
+}
+
 .content_title {
   font-size: 3.5em;
   font-family: 'Patrick Hand', cursive;

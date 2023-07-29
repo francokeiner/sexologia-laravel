@@ -17,7 +17,7 @@
           <a href="/" class="logo">Logo</a>
           <nav>
             <ul class="header_links">
-              <li><a href="#">BLOG</a></li>
+              <li><a href="{{ route('blog') }}">BLOG</a></li>
               <li><a href="#">CONTENIDO</a></li>
               <li><a href="#">SOBRE NOSOTROS</a></li>
             </ul>
@@ -37,7 +37,7 @@
               </div>
             </div>
             @else
-            <a class="header_login" href="#">INICIAR SESIÓN</a>
+            <a class="header_login" href="{{ route('login-form') }}">INICIAR SESIÓN</a>
           @endauth
       </div>
     </div>
