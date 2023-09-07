@@ -1,4 +1,10 @@
-.header {
+:root{
+  --padding-container: 100px 0;
+  --color-title: white;
+}
+
+
+header {
   height: 80px;
   background-color: white;
   padding: 0.5em 0;
@@ -43,7 +49,7 @@
 }
 
 .header_links li a {
-  color: rgb(145, 145, 145);
+  color: rgb(0, 0, 0);
   font-size: 0.9em;
   font-weight: 600;
 }
@@ -99,9 +105,80 @@
   opacity: 1;
 }
 
-.footer {
-  background-color: #363636;
-  position: sticky;
-  bottom: 0;
-  padding: 3em 1em;
+.hr-2{
+  color: #fff;
+  margin: 1em;
+  
+}
+
+
+.footer{
+  
+  padding: 1em 0 !important;
+  background-color: rgb(2, 155, 243);
+}
+.footer__title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 3px;
+}
+.footer__title{
+  color: #fff;
+}
+.footer__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav--footer{
+  padding-bottom: 20px;
+  display: grid;
+  gap: 3em;
+  grid-auto-flow: row;
+  height: 100%;
+}
+.nav__link--footer{
+  display: flex;
+  margin: 0;
+  margin-right: 20px;
+}
+.footer__copy{
+  --padding-container:30px 0 ;
+  text-align: center;
+  color :#fff;
+}
+.footer_copyrght{
+  font-weight: 300;
+}
+.footer__icons{
+  margin-bottom: 10px;
+}
+.footer__img{
+  
+  width: 30px;
+}
+
+.nav__items {
+  list-style: none;
+  margin-right: 1em;
+}
+
+.nav__links {
+  color: white;
+  font-size: 1.3em;
+}
+
+.imag-conta{
+  
+  margin-top: 1px;
+  height: 4.5em;  
+  
+}
+
+.imag-conta-2{
+  
+  margin-top: 1.2em;
+  height: 1.2em;  
+  
 }

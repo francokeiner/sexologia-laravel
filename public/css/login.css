@@ -11,6 +11,7 @@
   position: absolute;
   z-index: -1;
   left: 0;
+  filter: brightness(40%)
 }
 
 .content_items {

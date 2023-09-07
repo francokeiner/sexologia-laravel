@@ -45,6 +45,8 @@ class LoginController extends Controller
 
       return redirect(route('blog'));
     }
+
+    return redirect(route('login-form'));
   }
 
   public function logout(Request $request)
