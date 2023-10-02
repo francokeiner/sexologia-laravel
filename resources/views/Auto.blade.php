@@ -18,7 +18,7 @@
   </div>
 </div>
 <main class="content">
-  <h2>AUTOESTIMA</h2>
+  <h2>SELF CONCEPT</h2>
   <p>
     AUTOESTIMA
     La autoestima es el conjunto de percepciones, pensamientos, evaluaciones, sentimientos y tendencias de comportamientos dirigidos hacia uno mismo, hacia nuestra manera de ser, y hacia los rasgos de nuestro cuerpo y nuestro carácter.

@@ -147,9 +147,20 @@
   margin-top: 2rem;
 }
 
-.about-img img {
+.about_img img {
+  float: right;
   width: 80%;
   border-radius: 0.5rem;
+}
+.about_img1 img {
+  width: 80%;
+  border-radius: 0.5rem;
+}
+.about_img2 img {
+  float: left;
+  width: 80%;
+  border-radius: 0.5rem;
+  margin: 13%;
 }
 
 .about-text p {
@@ -283,4 +294,8 @@
 .testimony__arrow{
     width: 90%;
     cursor: pointer;
+}
+h2{
+  text-align: center;
+  height: 0em;
 }

@@ -18,7 +18,7 @@
   </div>
 </div>
 <main class="content">
-  <h2>GENERO</h2>
+  <h2>GENDER</h2>
   <p>
   GENERO
 De acuerdo a la Organización Mundial de la Salud (OMS), El género se refiere a los conceptos sociales de las funciones, comportamientos, actividades y atributos que cada sociedad considera apropiados para los hombres y las mujeres.

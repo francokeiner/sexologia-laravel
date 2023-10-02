@@ -18,7 +18,7 @@
   </div>
 </div>
 <main class="content">
-  <h2>RELACIONES INTERPERSONALES</h2>
+  <h2>INTERPERSONAL RELATIONSHIPS</h2>
   <p>
   RELACIONES INTERPERSONALES
 Las relaciones interpersonales son asociaciones entre dos o más personas. ​ Estas asociaciones pueden basarse en emociones y sentimientos, como el amor y el gusto artístico, el interés por los negocios y por las actividades sociales, las interacciones y formas colaborativas en el hogar, entre otros.

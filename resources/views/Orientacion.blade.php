@@ -18,7 +18,7 @@
   </div>
 </div>
 <main class="content">
-  <h2>Orientacion sexual</h2>
+  <h2>SEXUAL ORIENTATION</h2>
   <p>
     ORIENTACION SEXUAL
     Las orientaciones sexuales pueden ser: heterosexual (atracción a personas de distinto sexo), homosexual (atracción hacia personas del mismo sexo) y bisexual (atracción a personas de ambos sexos). Gays: Término político para identificar a hombres que asumen de manera abierta su orientación sexual por otros hombres.

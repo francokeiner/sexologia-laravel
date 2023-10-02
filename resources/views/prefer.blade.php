@@ -18,7 +18,7 @@
   </div>
 </div>
 <main class="content">
-  <h2>Preferencia Sexual</h2>
+  <h2>SEXUAL PREFERENCE</h2>
   <p>
   PREFERENCIA SEXUAL
 Por lo tanto la orientación sexual es innata, la preferencia genérica es adquirida, es una consecuencia de la orientación sexual, y ambos términos caben en la misma persona pero en momentos diferentes. El término preferencia sexual se puede emplear para las actividades sexuales que más nos gusten o que prefiramos
